@@ -29,7 +29,7 @@ const startGame = (game, gameTitle) => {
     if (input === correctAnswer) {
       console.log(`Correct!`);
     } else {
-      console.log(`Let's try again, ${userName}`);
+      console.log(`Let's try again, ${userName}!`);
       break;
     }
     i -= 1;
