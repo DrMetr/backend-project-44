@@ -12,7 +12,7 @@ const generateEquation = () => {
 
 const getCorrectAnswer = (equation) => {
   let [num1, operation, num2] = equation.split(" ");
-  ((num1 = parseInt(num1)), (num2 = parseInt(num2)));
+  ((num1 = Number.parseInt(num1)), (num2 = Number.parseInt(num2)));
   let answer;
   switch (operation) {
     case "-":

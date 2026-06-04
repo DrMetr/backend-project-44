@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
-//import readlineSync from "readline-sync";
 import startGame from "../../src/index.js";
 import generateNumber from "../../src/generateNumber.js";
 
-const isEven = (num) => (num % 2 === 0 ? true : false);
+const isEven = (num) => num % 2 === 0;
 
 const brainEven = () => {
   const question = generateNumber(100, 0);

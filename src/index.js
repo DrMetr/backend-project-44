@@ -36,9 +36,8 @@ const startGame = (game, gameTitle) => {
   }
 
   if (i === 0) {
-    console.log(`Congratulations, ${userName}`);
+    console.log(`Congratulations, ${userName}!`);
   }
-  return;
 };
 
 export default startGame;
