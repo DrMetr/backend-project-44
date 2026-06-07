@@ -29,6 +29,9 @@ const startGame = (game, gameTitle) => {
     if (input === correctAnswer) {
       console.log(`Correct!`);
     } else {
+      console.log(
+        `'${input}' is wrong answer ;(. Correct answer was '${correctAnswer}'`,
+      );
       console.log(`Let's try again, ${userName}!`);
       break;
     }
