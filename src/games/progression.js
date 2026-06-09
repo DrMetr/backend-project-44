@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import startGame from "../index.js";
 import generateNumber from "../generateNumber.js";
 

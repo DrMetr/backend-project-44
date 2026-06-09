@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
-import startGame from "../../src/index.js";
-import generateNumber from "../../src/generateNumber.js";
+import startGame from "../index.js";
+import generateNumber from "../generateNumber.js";
 
 const brainGCD = () => {
   let num1 = generateNumber(50, 1),

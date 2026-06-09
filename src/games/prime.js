@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
-import startGame from "../../src/index.js";
-import generateNumber from "../../src/generateNumber.js";
+import startGame from "../index.js";
+import generateNumber from "../generateNumber.js";
 
 const isPrime = (num) => {
   if (num === 2) return true;
